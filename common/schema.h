@@ -334,6 +334,7 @@ removed later.
 To check how many tables are defined in cfg_schema.h, check common/cfg_schema.h
 after libswsscommon deb make.
 */
+#define CFG_MONIT_TX_CONFIG_TABLE_NAME "MONIT_TX_CONFIG"
 #define CFG_PORT_CABLE_LEN_TABLE_NAME "CABLE_LENGTH"
 #define CFG_SEND_TO_INGRESS_PORT_TABLE_NAME  "SEND_TO_INGRESS_PORT"
 #define CFG_GEARBOX_TABLE_NAME           "GEARBOX"
@@ -403,6 +404,8 @@ after libswsscommon deb make.
 #define CHASSIS_APP_LAG_TABLE_NAME                  "SYSTEM_LAG_TABLE"
 #define CHASSIS_APP_LAG_MEMBER_TABLE_NAME           "SYSTEM_LAG_MEMBER_TABLE"
 /***** STATE DATABASE *****/
+
+#define STATE_MONIT_TX_STATUS_TABLE_NAME           "MONIT_TX_STATUS_TABLE"
 
 #define STATE_SWITCH_CAPABILITY_TABLE_NAME          "SWITCH_CAPABILITY"
 #define STATE_ACL_STAGE_CAPABILITY_TABLE_NAME       "ACL_STAGE_CAPABILITY_TABLE"
